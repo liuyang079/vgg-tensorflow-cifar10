@@ -14,7 +14,15 @@ model train, validation and test: cifar10_vgg_train
 hyper parameters: hyper_parameters.py  
 For the data processing section, cifar10 dataset, which is converted to filepath form, it looks like TF-record form.  
   For the vgg_train file, which includes trian model, validation model and test model.  
-  
+## Validation errors
+The lowest valdiation errors of vgg19 is 8.7% . You can change the number of the total layers by changing  vgg.py. vgg19 model 
+use conv-bn-relu layer and dropout layer.
+
+Network | Lowest Validation Error | Max_step | batch_size
+------- | ----------------------- | -------- | -----------
+vgg-19 |        8.7%              |   40000  |  128
+
+
 
 
 
