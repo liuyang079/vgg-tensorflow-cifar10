@@ -20,7 +20,7 @@ use conv-bn-relu layer and dropout layer.
 
 Network | Lowest Validation Error | Max_step | batch_size
 ------- | ----------------------- | -------- | -----------
-vgg-19 |        8.7%              |   40000  |  128
+vgg-19 |        8.7%              |   60000  |  128
 
 
 
